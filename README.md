@@ -45,9 +45,12 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 ```bash
 pip install -r requirements.txt
+```
+
 4. Model Training (Optional)
 If you wish to retrain the model or see the exploratory data analysis, run the Jupyter Notebook:
 
+```bash
 jupyter notebook
 (Open the source .ipynb file and run the cells to generate the pipe.pkl model file).
 ```
