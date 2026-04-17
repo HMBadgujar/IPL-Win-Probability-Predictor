@@ -29,25 +29,26 @@ The model is trained on extensive historical IPL data. The repository includes s
 Follow these steps to run the project on your local machine:
 
 **1. Clone the repository**
+
 ```bash
 git clone [https://github.com/HMBadgujar/IPL-Win-Probability-Predictor.git]
 cd IPL-Win-Probability-Predictor
 ```
 
-2. Create a Virtual Environment (Optional but recommended)
+**2. Create a Virtual Environment (Optional but recommended)**
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
-3. Install Dependencies
+**3. Install Dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Model Training (Optional)
+**4. Model Training (Optional)**
 If you wish to retrain the model or see the exploratory data analysis, run the Jupyter Notebook:
 
 ```bash
@@ -55,7 +56,7 @@ jupyter notebook
 (Open the source .ipynb file and run the cells to generate the pipe.pkl model file).
 ```
 
-5. Run the Streamlit App
+**5. Run the Streamlit App**
 
 ```bash
 streamlit run app.py
@@ -66,8 +67,8 @@ The web app will open automatically in your browser at http://localhost:8501.
 
 This repository is pre-configured for cloud deployment on platforms like Heroku.
 
-1. requirements.txt: Lists all python dependencies.
+**1. requirements.txt:** Lists all python dependencies.
 
-2. setup.sh: Configures the Streamlit server settings for the cloud environment.
+**2. setup.sh:** Configures the Streamlit server settings for the cloud environment.
 
-3. Procfile: Contains the command to execute the app on the web server.
+**3. Procfile:** Contains the command to execute the app on the web server.
